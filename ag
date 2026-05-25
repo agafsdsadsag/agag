@@ -637,7 +637,6 @@ local Library do
             return Library:Connect(self.Instance.MouseLeave, Function)
         end
     end
-    Library.Instances = Instances
 
     -- Custom font
     local CustomFont = { } do
